@@ -21,10 +21,10 @@ setuptools.setup(
     install_requires=[
         "configargparse",
         "oathtool",
-        "pandas>=1.0",
+        "pandas",
         "requests",
-        "selenium>=4.3.0,<5.0.0",
-        "selenium-requests>=2.0.3",
+        "selenium",
+        "selenium-requests",
         "xmltodict",
         "keyring",
     ],

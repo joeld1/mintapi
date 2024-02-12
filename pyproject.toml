@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mintapi"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+configargparse = "^1.7"
+future = "^0.18.3"
+keyring = "^24.3.0"
+mock = "^5.1.0"
+oathtool = "^2.3.1"
+pandas = "^2.2.0"
+selenium-requests = "^2.0.3"
+xmltodict = "^0.13.0"
+selenium = "^4.17.2"
+setuptools = {version = "^69.0.2", markers = "python_version >='3.12'"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
